@@ -42,3 +42,10 @@ Example:
 | ------------ | --------- | ----------- |
 | 2-stop S→S→M | 86:24.205 | \[22, 44]   |
 
+
+<p align="center">
+  <img src="images/2000_strats.png" alt="Best Strategy Plot" width="600">
+</p>
+
+
+
