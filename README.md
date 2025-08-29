@@ -46,9 +46,9 @@ Example:
 
 The simulator can generate **3D plots** to analyze the race dynamics:
 
-- **X-axis:** Lap number  
+- **X/Z axis:** Lap number  
 - **Y-axis:** Lap time (seconds)  
-- **Z-axis / Color / Depth:** Tire compound or stint index  
+- **Color:** Tire compound or stint index  
 
 This allows you to see how lap times evolve over the race and **where pit stops improve lap performance**. 
 
