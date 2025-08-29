@@ -48,7 +48,7 @@ The simulator can generate **3D plots** to analyze the race dynamics:
 
 - **X/Z axis:** Lap number  
 - **Y-axis:** Lap time (seconds)  
-- **Color:** Tire compound or stint index  
+- **Color:** Tire compound or stint index (S: Soft, M: Medium, H: Hard)
 
 This allows you to see how lap times evolve over the race and **where pit stops improve lap performance**. 
 
