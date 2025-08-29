@@ -40,12 +40,30 @@ Pit in Laps: laps where pit stops occurred.
 Example: 
 | Strategy     | Total     | Pit in Laps |
 | ------------ | --------- | ----------- |
-| 2-stop S→S→M | 86:24.205 | \[22, 44]   |
+| 2-stop S→M→S | 86:24.937 | \[19, 44]   |
 
+## 3D Visualization of Pit Stop Strategies
+
+The simulator can generate **3D plots** to analyze the race dynamics:
+
+- **X-axis:** Lap number  
+- **Y-axis:** Lap time (seconds)  
+- **Z-axis / Color / Depth:** Tire compound or stint index  
+
+This allows you to see how lap times evolve over the race and **where pit stops improve lap performance**. 
+
+We can visualize the results of the strategy simulations with images. The curves show lap times for all generated strategies. The lower points in the curve correspond to laps immediately after pit stops.
+
+### Example: 2,000 Strategies Simulated
 
 <p align="center">
-  <img src="images/2000_strats.png" alt="Best Strategy Plot" width="600">
+  <img src="images/2000_strats.png" alt="Simulation with 2000 strategies" width="600">
 </p>
 
+### Example: 50,000 Strategies Simulated
+
+<p align="center">
+  <img src="images/50000_strats.png" alt="Simulation with 50000 strategies" width="600">
+</p>
 
 
